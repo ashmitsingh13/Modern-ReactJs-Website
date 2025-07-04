@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <>
       <nav className="fixed z-[999] top-0 left-0 w-full flex justify-between items-center px-20 py-8">
-        <div className="text-2xl font-bold tracking-wide" style={{ fontFamily: "FoundersGrotesk" }}>
+        <div className="text-2xl font-bold tracking-wide font-[FoundersGrotesk]">
           MOMINTO
         </div>
         <div className="links flex gap-10">

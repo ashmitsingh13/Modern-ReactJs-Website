@@ -24,7 +24,7 @@ const LandingPage = () => {
             </h1>
           </div>
         </div>
-        <div className="border-t-2 border-zinc-800 mx-auto mt-28">
+        <div className="border-t-2 border-zinc-800 mx-auto mt-20">
           <div className="flex justify-between items-center gap-10 mx-28 mt-3">
             <div className="text-md font-semibold font-[NeueMontreal] tracking-tight leading-none">
               For public and private companies
