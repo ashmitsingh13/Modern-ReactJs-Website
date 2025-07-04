@@ -12,7 +12,9 @@ const LandingPage = () => {
             </h1>
           </div>
           <div className="masker flex items-baseline gap-4">
-            <div className=" relative w-[9vw] h-[5.3vw] bg-green-500 rounded-md"></div>
+            <div className=" relative w-[9vw] h-[5.3vw] bg-green-500 rounded-md overflow-hidden">
+              <img src="/images/landingpage.jpg" className="object-covercover" alt="" />
+            </div>
             <h1 className="uppercase text-9xl leading-[6.5vw] font-[FoundersGrotesk] font-semibold">
               Eye Opening
             </h1>
