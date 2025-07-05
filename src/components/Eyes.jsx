@@ -34,7 +34,6 @@ function Eyes() {
             </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
