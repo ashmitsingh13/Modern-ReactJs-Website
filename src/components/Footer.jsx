@@ -20,7 +20,7 @@ function Footer() {
     )
 })
   return (
-    <div className="w-full h-screen bg-[#CDEA68] flex flex-col items-center justify-between py-10 relative">
+    <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full h-screen bg-[#CDEA68] flex flex-col items-center justify-between py-10 relative">
       <div className="">
         <div className="text-[25vh] leading-none font-[FoundersGrotesk] font-semibold uppercase text-black text-center">
           READY

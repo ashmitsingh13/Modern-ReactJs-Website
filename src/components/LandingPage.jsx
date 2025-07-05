@@ -1,10 +1,10 @@
 import React from "react";
+import { motion } from "framer-motion"
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 const LandingPage = () => {
   return (
-    <>
-      <div className="w-full h-screen bg-black text-white pt-1 ">
+      <div data-scroll data-scroll-section data-scroll-speed="-.3" className="w-full h-screen bg-black text-white pt-1 ">
         <div className="textstructure mt-40 px-20">
           <div className="masker ">
             <h1 className="uppercase text-9xl leading-[6.5vw] font-[FoundersGrotesk] font-semibold">
@@ -12,9 +12,9 @@ const LandingPage = () => {
             </h1>
           </div>
           <div className="masker flex items-baseline gap-4">
-            <div className=" relative w-[9vw] h-[5.3vw] bg-green-500 rounded-md overflow-hidden">
-              <img src="/images/landingpage.jpg" className="object-covercover" alt="" />
-            </div>
+            <motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.76, 0,0.24, 1], duration:1}} className=" relative w-[9vw] h-[5.3vw] rounded-md overflow-hidden">
+              <img initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:1}} src="/images/landingpage.jpg" className=" relative w-[9vw] h-[5.3vw] rounded-md overflow-hidden" alt="" />
+            </motion.div>
             <h1 className="uppercase text-9xl leading-[6.5vw] font-[FoundersGrotesk] font-semibold">
               Eye Opening
             </h1>
@@ -45,7 +45,6 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

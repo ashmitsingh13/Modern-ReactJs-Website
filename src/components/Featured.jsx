@@ -3,7 +3,7 @@ import FeaturedContainer from './FeaturedContainer'
 
 function Featured() {
   return (
-    <div className='w-full py-20'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full py-20'>
         <div className='w-full px-20 border-b-2 border-zinc-700 pb-20'>
             <h1 className='text-8xl font-[FoundersGrotesk] tracking-tight'>Featured Projects</h1>
         </div>
